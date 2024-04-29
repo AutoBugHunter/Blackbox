@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compare Accessibility Tools</title>
     <style>
         body {
@@ -11,7 +13,7 @@
             padding: 10px;
             text-align: center;
         }
-        header a {
+        header a, label {
             margin: 0 10px;
         }
         footer a {
@@ -56,7 +58,8 @@
     </header>
     <section id="content">
         <h1>Compare Accessibility Tools</h1>
-        <input type="text" id="url-input" placeholder="Enter URL to check accessibility">
+        <label for="url-input">Enter URL to check accessibility:</label>
+        <input type="text" id="url-input">
         <button id="check-button">Check it</button>
         <h2>List of Accessibility Testing Tools</h2>
         <img src="wave-logo.png" alt="WAVE">
