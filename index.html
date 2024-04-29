@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Compare Accessibility Tools</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background-color: #f8f8f8;
+            padding: 10px;
+            text-align: center;
+        }
+        header a {
+            margin: 0 10px;
+        }
+        footer a {
+            margin: 0 5px;
+        }
+        #content {
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        #check-button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#browser-extensions">Browser Extensions</a>
+        <a href="#stand-alone-api">Stand-alone API/Testing</a>
+        <a href="#engine-subscription-api">Engine Subscription API</a>
+        <a href="#aim-report">AIM Report</a>
+        <a href="#help">Help</a>
+    </header>
+    <section id="content">
+        <h1>Compare Accessibility Tools</h1>
+        <input type="text" id="url-input" placeholder="Enter URL to check accessibility">
+        <button id="check-button">Check it</button>
+        <h2>List of Accessibility Testing Tools</h2>
+        <img src="wave-logo.png" alt="WAVE">
+        <img src="achecker-logo.png" alt="Achecker">
+        <img src="lighthouse-logo.png" alt="Lighthouse">
+        <h2>Comparison Table</h2>
+        <table>
+            <tr>
+                <th>Accessible Check</th>
+                <th>WAVE</th>
+                <th>Achecker</th>
+                <th>Lighthouse</th>
+                <th>Details</th>
+            </tr>
+            <!-- Table rows will be filled dynamically -->
+        </table>
+    </section>
+    <footer>
+        <a href="#contact-us">Contact Us</a>
+        <a href="#about">About</a>
+        <a href="#terms-of-use">Terms of Use</a>
+        <a href="https://www.unt.edu/index.html">UNT</a>
+    </footer>
+    <script>
+        // JavaScript code for functionality will go here
+    </script>
+</body>
+</html>
